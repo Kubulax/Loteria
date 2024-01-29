@@ -4,10 +4,10 @@
              x:Class="Loteria.PlayerPage" NavigationPage.HasNavigationBar="True" NavigationPage.HasBackButton="True" Title="Gracz">
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center">
-            <Entry x:Name="imie" Placeholder="Imie" WidthRequest="300"></Entry>
-            <Entry x:Name="nazwisko" Placeholder="Nazwisko"  WidthRequest="300"></Entry>
+            <Entry x:Name="name" Placeholder="Name" WidthRequest="300"></Entry>
+            <Entry x:Name="surname" Placeholder="Surname"  WidthRequest="300"></Entry>
             <Entry x:Name="email" Placeholder="Email"  WidthRequest="300" Keyboard="Email"></Entry>
-            <Entry x:Name="kod" Placeholder="Kod"  WidthRequest="300" Keyboard="Numeric"></Entry>
+            <Entry x:Name="code" Placeholder="Code"  WidthRequest="300" Keyboard="Numeric"></Entry>
             <Button x:Name="aplikuj" Text="Aplikuj" Clicked="aplikuj_Clicked" WidthRequest="200" FontSize="20" BackgroundColor="Gray" TextColor="WhiteSmoke"></Button>
         </StackLayout>
     </ContentPage.Content>

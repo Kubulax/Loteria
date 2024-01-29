@@ -9,23 +9,23 @@ namespace Loteria.Classes
     {
         [AutoIncrement, PrimaryKey] 
         public int Id { get; set; }
-        public DateTime DataLosowania { get; set; }
-        public string WygraneLiczby { get; set; }
-        public int IloscWygranych { get; set; }
+        public DateTime LotteryDate { get; set; }
+        public string WinningNumbers { get; set; }
+        public int NumberOfWins { get; set; }
 
-        public Score(int id, DateTime dataLosowania, string wygraneLiczby, int iloscWygranych)
+        public Score(int id, DateTime lotteryDate, string winningNumbers, int numberOfWins)
         {
             Id = id;
-            DataLosowania = dataLosowania;
-            WygraneLiczby = wygraneLiczby;
-            IloscWygranych = iloscWygranych;
+            LotteryDate = lotteryDate;
+            WinningNumbers = winningNumbers;
+            NumberOfWins = numberOfWins;
         }
 
-        public Score(DateTime dataLosowania, string wygraneLiczby, int iloscWygranych)
+        public Score(DateTime lotteryDate, string winningNumbers, int numberOfWins)
         {
-            DataLosowania = dataLosowania;
-            WygraneLiczby = wygraneLiczby;
-            IloscWygranych = iloscWygranych;
+            LotteryDate = lotteryDate;
+            WinningNumbers = winningNumbers;
+            NumberOfWins = numberOfWins;
         }
 
         public Score() 

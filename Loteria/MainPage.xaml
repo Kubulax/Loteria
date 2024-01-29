@@ -6,7 +6,7 @@
         <StackLayout Orientation="Vertical" VerticalOptions="Start" HorizontalOptions="Center" Margin="0,180,0,0">
             <Button Text="Gracz" x:Name="gracz_nav" Clicked="gracz_nav_Clicked" WidthRequest="300" BackgroundColor="Gray" FontSize="20" TextColor="WhiteSmoke"></Button>
             <Button Text="Admin" x:Name="admin_Nnav" Clicked="admin_Nnav_Clicked"  WidthRequest="300" BackgroundColor="Gray" FontSize="20" TextColor="WhiteSmoke"></Button>
-            <Button Text="Wyniki" x:Name="wyniki_nav" Clicked="wyniki_nav_Clicked"  WidthRequest="300" BackgroundColor="Gray" FontSize="20" TextColor="WhiteSmoke"></Button>
+            <Button Text="Scorei" x:Name="wyniki_nav" Clicked="wyniki_nav_Clicked"  WidthRequest="300" BackgroundColor="Gray" FontSize="20" TextColor="WhiteSmoke"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

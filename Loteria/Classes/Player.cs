@@ -9,27 +9,27 @@ namespace Loteria.Classes
     {
         [AutoIncrement,PrimaryKey]
         public int Id { get; set; }
-        public string Imie { get; set; }
-        public string Nazwisko { get; set; }
-        public string Email {  get; set; }
-        public string Kod {  get; set; }
+        public string Name { get; set; }
+        public string Surname { get; set; }
+        public string Email { get; set; }
+        public string Code { get; set; }
 
-        public Player(int id, string imie, string nazwisko, string email, string kod)
+        public Player(int id, string name, string surname, string email, string code)
         {
             Id = id;
-            Imie = imie;
-            Nazwisko = nazwisko;
+            Name = name;
+            Surname = surname;
             Email = email;
-            Kod = kod;
+            Code = code;
         }
 
-        public Player(string imie, string nazwisko, string email, string kod)
+        public Player(string name, string surname, string email, string code)
         {
             
-            Imie = imie;
-            Nazwisko = nazwisko;
+            Name = name;
+            Surname = surname;
             Email = email;
-            Kod = kod;
+            Code = code;
         }
 
         public Player()

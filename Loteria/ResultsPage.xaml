@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Loteria.ResultsPage" Title="Wynik">
+             x:Class="Loteria.ResultsPage" Title="Score">
     <ContentPage.Content>
         <StackLayout>
             <SearchBar x:Name="wyszukaj" TextChanged="wyszukaj_TextChanged" Placeholder="Wyszukaj numer losowania"></SearchBar>
@@ -11,9 +11,9 @@
                         <ViewCell>
                         <StackLayout Orientation="Horizontal">
                             <Label FontSize="12" Text="{Binding Id, StringFormat='Numer losowania: {0}'}"></Label>
-                            <Label FontSize="12" Text="{Binding DataLosowania, StringFormat='Data i godzina losowania: {0}'}"></Label>
-                            <Label FontSize="12" Text="{Binding WygraneLiczby, StringFormat='Ilosc wygranych: {0}'}"></Label>
-                            <Label FontSize="12" Text="{Binding IloscWygranych, StringFormat='Wygrany kod: {0}'}"></Label>
+                            <Label FontSize="12" Text="{Binding LotteryDate, StringFormat='Data i godzina losowania: {0}'}"></Label>
+                            <Label FontSize="12" Text="{Binding WinningNumbers, StringFormat='Ilosc wygranych: {0}'}"></Label>
+                            <Label FontSize="12" Text="{Binding NumberOfWins, StringFormat='Wygrany code: {0}'}"></Label>
                         </StackLayout>
                         </ViewCell>
                     </DataTemplate>

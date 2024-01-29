@@ -4,11 +4,11 @@
              x:Class="Loteria.AdminPage" NavigationPage.HasBackButton="True" Title="Admin"> 
     <ContentPage.Content>
         <StackLayout>
-            <Button Text="Wylosuj wygranego" x:Name="losowanie" Clicked="losowanie_Clicked" WidthRequest="300" BackgroundColor="Gray" FontSize="20" TextColor="WhiteSmoke"></Button>
-            <Button Text="Kazdy wygrywa" x:Name="kazdyWygrywa" Clicked="kazdyWygrywa_Clicked" WidthRequest="300" BackgroundColor="Gray" FontSize="20" TextColor="WhiteSmoke"></Button>
-            <Label FontSize="12" Text="" x:Name="dataLosowania"></Label>
-            <Label FontSize="12"  Text="" x:Name="iloscWygranych"></Label>
-            <Label FontSize="12"  Text="" x:Name="wygranyKod"></Label>
+            <Button Text="Wylosuj wygranego" x:Name="losowanie" Clicked="Draw" WidthRequest="300" BackgroundColor="Gray" FontSize="20" TextColor="WhiteSmoke"></Button>
+            <Button Text="Kazdy wygrywa" x:Name="everybodyWins" Clicked="EverybodyWins" WidthRequest="300" BackgroundColor="Gray" FontSize="20" TextColor="WhiteSmoke"></Button>
+            <Label FontSize="12" Text="" x:Name="lotteryDate"></Label>
+            <Label FontSize="12"  Text="" x:Name="numberOfWins"></Label>
+            <Label FontSize="12"  Text="" x:Name="winningCode"></Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
